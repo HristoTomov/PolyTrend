@@ -24,19 +24,23 @@ An object of the class "PT" is a list including the trend type, slope, direction
 ###Value:
 
 **TrendType:**<br/> 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the trend type as a number, which can be -1, 0, 1, 2, or 3. The values correspond to a concealed trend (-1), no trend (0), linear trend (1), quadratic trend (2) or cubic trend (3).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the trend type as a number, which can be -1, 0, 1, 2, or 3. The values correspond to a concealed trend (-1),<br/> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;no trend (0), linear trend (1), quadratic trend (2) or cubic trend (3).
 
 **Slope:**<br/> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the linear slope value.
 
 **Direction:**<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the linear slope direction as a number, which can be 1 or -1. The values correspond to increasing (1) or decreasing direction (-1).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the linear slope direction as a number, which can be 1 or -1. The values correspond to increasing (1) or <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;decreasing direction (-1).
 
 **Significance:**<br/> 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the slope significance as a number, which can be 1 or -1. The values correspond to statistically significant (1) or statistically in-significant (-1).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the slope significance as a number, which can be 1 or -1. The values correspond to statistically<br/> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;significant (1) or statistically in-significant (-1).
 
 **PolynomialDegree:**<br/> 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the polynomial degree as a number, which can be 0, 1, 2, or 3. The values correspond to no-trend (0), linear (1), quadratic (2), or cubic (3).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the polynomial degree as a number, which can be 0, 1, 2, or 3. The values correspond to no-trend (0), <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;linear (1), quadratic (2), or cubic (3).
 
 ###Author(s):
 
