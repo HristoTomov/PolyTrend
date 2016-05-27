@@ -19,7 +19,7 @@ from the start of the time period to the end of the time period hasn't been sign
 
 ###Details:
 
-     An object of the class "PT" is a list including the trend type, slope, direction, and statistical significance.
+*An object of the class "PT" is a list including the trend type, slope, direction, and statistical significance.*
 
 ###Value:
 
