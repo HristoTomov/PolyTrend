@@ -12,10 +12,10 @@ from the start of the time period to the end of the time period hasn't been sign
 ###Arguments:
 
 **Y:**<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a vector of values corresponding to the trend or de-seasonalised component of vegetation time series data.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a vector of values corresponding to the trend or de-seasonalised component of vegetation time series data.
 
 **alpha:**<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the statistical significance level.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the statistical significance level.
 
 ###Details:
 
@@ -24,19 +24,19 @@ An object of the class "PT" is a list including the trend type, slope, direction
 ###Value:
 
 **TrendType:**<br/> 
-the trend type as a number, which can be -1, 0, 1, 2, or 3. The values correspond to a concealed trend (-1), no trend (0), linear trend (1), quadratic trend (2) or cubic trend (3).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the trend type as a number, which can be -1, 0, 1, 2, or 3. The values correspond to a concealed trend (-1), no trend (0), linear trend (1), quadratic trend (2) or cubic trend (3).
 
 **Slope:**<br/> 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the linear slope value.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the linear slope value.
 
 **Direction:**<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the linear slope direction as a number, which can be 1 or -1. The values correspond to increasing (1) or decreasing direction (-1).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the linear slope direction as a number, which can be 1 or -1. The values correspond to increasing (1) or decreasing direction (-1).
 
 **Significance:**<br/> 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the slope significance as a number, which can be 1 or -1. The values correspond to statistically significant (1) or statistically in-significant (-1).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the slope significance as a number, which can be 1 or -1. The values correspond to statistically significant (1) or statistically in-significant (-1).
 
 **PolynomialDegree:**<br/> 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the polynomial degree as a number, which can be 0, 1, 2, or 3. The values correspond to no-trend (0), linear (1), quadratic (2), or cubic (3).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the polynomial degree as a number, which can be 0, 1, 2, or 3. The values correspond to no-trend (0), linear (1), quadratic (2), or cubic (3).
 
 ###Author(s):
 
